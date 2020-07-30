@@ -2,44 +2,78 @@
 
 // Website related settings
 const settings = {
-  isSplash: true,  // Change this to false if you don't want Splash screen.
+  isSplash: false,  // Change this to false if you don't want Splash screen.
 };
 
 
 //Home Page
 const greeting = {
-	title: "Ashutosh Hathidara",
-	logo_name: "AshutoshHathidara",
-	nickname: "layman_brother",
+	title: "Hey! I'm Sayantan",
+	logo_name: "Sayantan Jana",
+	nickname: "reefs_edge",
 	subTitle:
-		"A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+		"An ambitious, zestful & persevering individual who is yearning to absorb as much knowledge and insights as possible.",
 	resumeLink:
-		"https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-	portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+		"ddd",
+	portfolio_repository: "https://github.com/sayantanjana/sayantanportfolio",
 };
 
 const socialMediaLinks = {
 	/* Your Social Media Link */
-	github: "https://github.com/ashutosh1919",
-	linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-	gmail: "ashutoshhathidara98@gmail.com",
-	gitlab: "https://gitlab.com/ashutoshhathidara98",
-	facebook: "https://www.facebook.com/laymanbrother.19/",
-	twitter: "https://twitter.com/ashutosh_1919",
-	instagram: "https://www.instagram.com/layman_brother/"
+	github: "https://github.com/sayantanjana",
+	linkedin: "https://www.linkedin.com/in/sayantan-jana/",
+	gmail: "sjana.chan@gmail.com",
+	gitlab: "https://gitlab.com/sayantanjana/",
+	facebook: "https://www.facebook.com/sayantanjana.666/",
+	twitter: "https://twitter.com/sjana666",
+	//instagram: "https://www.instagram.com/sayantan_sj/",
+    whatsapp: "https://wa.me/+917003182440"
 };
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Visualization, AI & ML",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis"
+        "⚡ Appealing graphs and charts for in-depth analysis",
+        "⚡ Machine learning incorporating time series analysis, fraud detection & customer satisfaction",
+        "⚡ Experience of working with Computer Vision and NLP projects"
       ],
       softwareSkills: [
+        {
+          skillName: "Tableau",
+          fontAwesomeClassname: "simple-icons:tableau",
+          style: {
+            backgroundColor: "transparent",
+            color: "#E97627"
+            
+          }
+        },
+        {
+          skillName: "Power BI",
+          fontAwesomeClassname: "simple-icons:powerbi",
+          style: {
+            backgroundColor: "transparent",
+            color: "#F2C811"
+          }
+        },  
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB"
+          }
+        },
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
+          style: {
+            backgroundColor: "transparent",
+            color: "#150458"
+          }
+        },
         {
           skillName: "Tensorflow",
           fontAwesomeClassname: "logos-tensorflow",
@@ -61,24 +95,17 @@ const skills = {
           style: {
             backgroundColor: "transparent"
           }
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB"
-          }
         }
+              
       ]
     },
     {
-      title: "Full Stack Development",
+      title: "Front End Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask"
+        "⚡ Building resposive website front end using React ",
+        "⚡ Setting up DNS & databases to host websites",
+        //"⚡ Creating application backend in Node, Express & Flask"
       ],
       softwareSkills: [
         {
@@ -96,12 +123,20 @@ const skills = {
           }
         },
         {
+          skillName: "PHP",
+          fontAwesomeClassname: "simple-icons:php",
+          style: {
+              backgroundColor: "transparent",
+              color: "#777BB4"
+          }
+        },  
+        /*{
           skillName: "Sass",
           fontAwesomeClassname: "simple-icons:sass",
           style: {
             color: "#CC6699"
           }
-        },
+        },*/
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -132,6 +167,14 @@ const skills = {
           }
         },
         {
+          skillName: "My SQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+              backgroundColor: "transparent",
+              color: "#4479A1"
+          }
+        },  
+        /*{
           skillName: "Yarn",
           fontAwesomeClassname: "simple-icons:yarn",
           style: {
@@ -151,17 +194,16 @@ const skills = {
           style: {
             color: "#02569B"
           }
-        }
+        }*/
       ]
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud Platforms",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS"
+        "⚡ Setting up IoT, serverless application on GCP and AWS",
+        "⚡ Deploying machine laerning models on cloud",
       ],
       softwareSkills: [
         {
@@ -186,6 +228,14 @@ const skills = {
           }
         },
         {
+          skillName: "IBM",
+          fontAwesomeClassname: "simple-icons:ibm",
+          style: {
+              backgroundColor: "transparent",
+              color: "#054ADA"
+          }
+        },  
+        /*{
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
@@ -212,7 +262,7 @@ const skills = {
           style: {
             color: "#1488C6"
           }
-        },
+        },*/
         {
           skillName: "Kubernetes",
           fontAwesomeClassname: "simple-icons:kubernetes",
@@ -226,9 +276,9 @@ const skills = {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience"
+        "⚡ Designing enthralling user interface for website",
+        "⚡ Creating logo design and animating images",
+        //"⚡ Creating the flow of application functionalities to optimize user experience"
       ],
       softwareSkills: [
         {
@@ -238,6 +288,13 @@ const skills = {
             color: "#FF2BC2"
           }
         },
+        {
+          skillName: "Adobe Photshop",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
+          style: {
+            color: "#26C9FF"
+          }
+        },  
         {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
@@ -256,188 +313,191 @@ const skills = {
           skillName: "Inkscape",
           fontAwesomeClassname: "simple-icons:inkscape",
           style: {
-            color: "#000000"
+            color: "#ffffff"
           }
         }
       ]
     }
   ]
 };
-
-
 // Education Page
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866"
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother"
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638"
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919"
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
+      siteName: "Coursera",
+      iconifyClassname: "simple-icons:coursera",
       style: {
         color: "#1F8ACB"
       },
-      profileLink: "http://codeforces.com/profile/layman_brother"
+      profileLink: "https://www.coursera.org/user/d61f9ea55278102eff638eefcca303bc"
     },
     {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
+      siteName: "Gitlab",
+      iconifyClassname: "simple-icons:gitlab",
       style: {
-        color: "#323754"
+        color: "#FCA121"
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391"
-    },
+      profileLink: "https://gitlab.com/sayantanjana/"
+    },  
     {
       siteName: "Kaggle",
       iconifyClassname: "simple-icons:kaggle",
       style: {
         color: "#20BEFF"
       },
-      profileLink: "https://www.kaggle.com/laymanbrother"
-    }
+      profileLink: "https://www.kaggle.com/sjleshrac"
+    },
+    {
+      siteName: "Codepen",
+      iconifyClassname: "simple-icons:codepen",
+      style: {
+        color: "#ffffff"
+      },
+      profileLink: "https://codepen.io/sj-leshrac"
+    },    
   ]
 }
 
 const degrees = {
   degrees : [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "Welingkar Institute of Management Development & Research",
+      subtitle: "PGDM in Research & Business Analytics",
+      logo_path: "weschool_logo.png",
+      alt_name: "WeSchool",
+      duration: "2019 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics."
+        "⚡ I have gone through the subjects such as Statistics, Ecomomics, BFSI, Python etc & taken Finance as specialization in 2nd year.",
+        "⚡ I have participated in several hackathons, case study competitions & volunteered in college events. ",
+        "⚡ Apart from this, I have completed courses on Data Science, Deep Learning, Cloud Architecture on Coursera platform."
       ],
-      website_link: "http://iiitk.ac.in"
-    }
+      website_link: "https://www.welingkar.org/"
+    },
+    {
+      title: "Techno India, Saltlake",
+      subtitle: "B.Tech. in Electrical Engineering",
+      logo_path: "techno_logo.png",
+      alt_name: "Techno Saltlake",
+      duration: "2015 - 2019",
+      descriptions: [
+        "⚡ I have studied basic electrical engineering subjects like Electrical Machines, Control System, Circuit Theory etc.",
+        "⚡ I have built several small scale electrical projects like Automatic Door Lock System using Arduino UNO. ",
+        "⚡ I was a core committee member of EDGE-Cyber Crusade(DOTA 2) which is a professional & competitve gaming event in Kolkata. "
+      ],
+      website_link: "https://www.ticollege.ac.in/"
+    }  
   ]
 }
 
 const certifications = {
 	certifications: [
 		{
-			title: "Machine Learning",
-			subtitle: "- Andrew Ng",
-			logo_path: "stanford_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-			alt_name: "Stanford University",
-			color_code: "#8C151599"
-		},
-		{
-			title: "Deep Learning",
-			subtitle: "- Andrew Ng",
-			logo_path: "deeplearning_ai_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-			alt_name: "deeplearning.ai",
-			color_code: "#00000099"
-		},
-		{
-			title: "ML on GCP",
-			subtitle: "- GCP Training",
-			logo_path: "google_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-			alt_name: "Google",
-			color_code: "#0C9D5899"
-		},
-		{
-			title: "Data Science",
-			subtitle: "- Alex Aklson",
+			title: "Data Science Professional",
+			subtitle: "IBM ",
 			logo_path: "ibm_logo.png",
 			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+				"https://www.coursera.org/account/accomplishments/specialization/6DBT6TCCK8GK",
 			alt_name: "IBM",
-			color_code: "#1F70C199"
+			color_code: "#1b397d"
 		},
 		{
-			title: "Big Data",
-			subtitle: "- Kim Akers",
-			logo_path: "microsoft_logo.png",
-			certificate_link:
-				"https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-			alt_name: "Microsoft",
-			color_code: "#D83B0199"
-		},
-		{
-			title: "Advanced Data Science",
-			subtitle: "- Romeo Kienzler",
-			logo_path: "ibm_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-			alt_name: "IBM",
-			color_code: "#1F70C199"
-		},
-		{
-			title: "Advanced ML on GCP",
-			subtitle: "- GCP Training",
-			logo_path: "google_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-			alt_name: "Google",
-			color_code: "#0C9D5899"
-		},
-		{
-			title: "DL on Tensorflow",
-			subtitle: "- Laurence Moroney",
+			title: "Deep Learning Specialization",
+			subtitle: "DeepLearning.ai",
 			logo_path: "deeplearning_ai_logo.png",
 			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
+				"https://www.coursera.org/account/accomplishments/specialization/QKEJVJ37J35S",
 			alt_name: "deeplearning.ai",
-			color_code: "#00000099"
+			color_code: "#c2cfbe"
 		},
 		{
-			title: "Fullstack Development",
-			subtitle: "- Jogesh Muppala",
-			logo_path: "coursera_logo.png",
+			title: "AWS Fundamentals Specialization",
+			subtitle: "AWS",
+			logo_path: "aws_logo.png",
 			certificate_link:
-				"https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-			alt_name: "Coursera",
-			color_code: "#2A73CC"
+				"https://www.coursera.org/account/accomplishments/specialization/AEYVQK2V9QP4",
+			alt_name: "AWS",
+			color_code: "#000000"
 		},
 		{
-			title: "Kuberenetes on GCP",
-			subtitle: "- Qwiklabs",
-			logo_path: "gcp_logo.png",
+			title: "ML with Tensorflow Specialization",
+			subtitle: "GCP",
+			logo_path: "ml_gcp.png",
 			certificate_link:
-				"https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+				"https:",
 			alt_name: "GCP",
-			color_code: "#4285F499"
+			color_code: "#2662a6"
+		},
+        {
+			title: "Computer Vision: Gluon CV",
+			subtitle: "AWS",
+			logo_path: "aws_logo.png",
+			certificate_link:
+				"https://www.coursera.org/account/accomplishments/records/BKSEVMBH86XL",
+			alt_name: "AWS",
+			color_code: "#000000"
 		},
 		{
-			title: "Cryptography",
-			subtitle: "- Saurabh Mukhopadhyay",
-			logo_path: "nptel_logo.png",
+			title: "Practical Time Series Analysis",
+			subtitle: "State University of New York",
+			logo_path: "suny_logo.png",
 			certificate_link:
-				"https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
+				"https://www.coursera.org/account/accomplishments/records/4MN7WF2NVZ9M",
+			alt_name: "SUNY",
+			color_code: "#000000"
+		},	
+		{
+			title: "Introduction to Cloud Identity",
+			subtitle: "Google Cloud Platform",
+			logo_path: "gcp_logo2.png",
+			certificate_link:
+				"https://www.coursera.org/account/accomplishments/records/HHCL4VXGELTA",
+			alt_name: "Google",
+			color_code: "#c2cfbe"
+		},
+		{
+			title: "AWS Machine Learning",
+			subtitle: "AWS",
+			logo_path: "aws_logo.png",
+			certificate_link:
+				"https://www.coursera.org/account/accomplishments/records/BNND63FWLNGC",
+			alt_name: "deeplearning.ai",
+			color_code: "#000000"
+		},
+		{
+			title: "Industrial IoT",
+			subtitle: "GCP",
+			logo_path: "gcp_logo2.png",
+			certificate_link:
+				"https://www.coursera.org/account/accomplishments/records/LDBE4ZJWTWXQ",  
+			alt_name: "GCP",
+			color_code: "#c2cfbe"
+		},
+		{
+			title: "Chatbot with Dialoflow",
+			subtitle: "GCP",
+			logo_path: "gcp_logo2.png",
+			certificate_link:
+				"https://www.coursera.org/account/accomplishments/records/QGN5EDWL4U4K",
+			alt_name: "GCP",
+			color_code: "#c2cfbe"
+		},
+		{
+			title: "ML for Business Professionals",
+			subtitle: "GCP",
+			logo_path: "gcp_logo2.png",
+			certificate_link:
+				"https://www.coursera.org/account/accomplishments/records/RDE9GB7Y3UUJ",
 			alt_name: "NPTEL",
-			color_code: "#FFBB0099"
+			color_code: "#c2cfbe"
 		},
 		{
-			title: "Cloud Architecture",
-			subtitle: "- Qwiklabs",
-			logo_path: "gcp_logo.png",
+			title: "AI apps with Azure",
+			subtitle: "Learnquest",
+			logo_path: "azure_logo.png",
 			certificate_link:
-				"https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+				"https://www.coursera.org/account/accomplishments/records/DRHTDHBZPYPZ",
 			alt_name: "GCP",
-			color_code: "#4285F499"
+			color_code: "#c2cfbe"
 		}
 	]
 };
@@ -446,135 +506,53 @@ const certifications = {
 // Experience Page
 const experience = {
 	title: "Experience",
-	subtitle: "Work, Internship and Volunteership",
+	subtitle: "Internship and Hackathons",
 	description:
-		"I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+		"I have worked with a reputed insurance company as a management trainee. I also participated in a couple of hackathons. ",
 	header_image_path: "experience.svg",
 	sections: [
 		{
-			title: "Work",
+			title: "Internship",
 			experiences: [
 				{
-					title: "Associate AI Engineer",
-					company: "Legato Health Technology",
-					company_url: "https://legatohealthtech.com/",
-					logo_path: "legato_logo.png",
-					duration: "June 2020 - PRESENT",
-					location: "Hyderabad, Telangana",
+					title: "General Management Intern",
+					company: "IDBI Federal Life Insurance",
+					company_url: "https://www.idbifederal.com/",
+					logo_path: "idbi_logo.png",
+					duration: "May - June 2020",
+					location: "Kolkata, West Bengal",
 					description:
-						"I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-					color: "#0879bf",
-				},
-				{
-					title: "Android and ML Developer",
-					company: "Muffito Incorporation",
-					company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-					logo_path: "muffito_logo.png",
-					duration: "May 2018 - Oct 2018",
-					location: "Pune, Maharashtra",
-					description:
-						"I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-					color: "#9b1578",
-				},
-				{
-					title: "Android Developer",
-					company: "FreeCopy Pvt. Ltd.",
-					company_url: "https://www.linkedin.com/company/freecopy/about/",
-					logo_path: "freecopy_logo.png",
-					duration: "Nov 2017 - Dec 2017",
-					location: "Ahmedabad, Gujarat",
-					description:
-						"FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-					color: "#fc1f20",
-				},
+						"As a general management trainee I have done on market research and product sales. My research topic was to analyse the perception of people regarding various investment avenues with respect to life insurance",
+					color: "#1eb59c",
+				}
+				
 			],
 		},
 		{
-			title: "Internships",
+			title: "Hackathons",
 			experiences: [
 				{
-					title: "Data Science Research Intern",
-					company: "Delhivery Pvt. Ltd.",
-					company_url: "https://www.delhivery.com/",
-					logo_path: "delhivery_logo.png",
-					duration: "May 2019 - Sept 2019",
-					location: "Gurgaon, Haryana",
+					title: "World Hackathon Day",
+					company: "Israel Hackathon",
+					company_url: "https://worldhackathonday.com/",
+					logo_path: "israelhack_logo.png",
+					duration: "May 2020",
+					location: "Online",
 					description:
-						"I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+						"Pitched a solution as Resfeber app for improving travel through airport considering safety and health using AI,Navigating by Augmented reality, thermal sensing,smart wearable all connected through the app having universal database of airports. Video Link: https://youtu.be/2kkmKITzzSk",
 					color: "#ee3c26",
 				},
 				{
-					title: "Data Science Intern",
-					company: "Intel Indexer LLC",
+					title: "Samadhan Contest",
+					company: "MHRD",
 					company_url:
-						"https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-					logo_path: "intel_logo.jpg",
-					duration: "Nov 2018 - Dec 2018",
-					location: "Work From Home",
+						"https://mic.gov.in/samadhan/",
+					logo_path: "samadhan_logo.png",
+					duration: "April 2020",
+					location: "Online",
 					description:
-						"This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-					color: "#0071C5",
-				},
-			],
-		},
-		{
-			title: "Volunteerships",
-			experiences: [
-				{
-					title: "Google Explore ML Facilitator",
-					company: "Google",
-					company_url: "https://about.google/",
-					logo_path: "google_logo.png",
-					duration: "June 2019 - April 2020",
-					location: "Hyderabad, Telangana",
-					description:
-						"Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-					color: "#4285F4",
-				},
-				{
-					title: "Microsoft Student Partner",
-					company: "Microsoft",
-					company_url: "https://www.microsoft.com/",
-					logo_path: "microsoft_logo.png",
-					duration: "Aug 2019 - May 2020",
-					location: "Hyderabad, Telangana",
-					description:
-						"Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-					color: "#D83B01",
-				},
-				{
-					title: "Mozilla Campus Captain",
-					company: "Mozilla",
-					company_url: "https://www.mozilla.org/",
-					logo_path: "mozilla_logo.png",
-					duration: "Oct 2019 - May 2020",
-					location: "Kurnool, Andhra Pradesh",
-					description:
-						"My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-					color: "#000000",
-				},
-				{
-					title: "Developer Students Club Member",
-					company: "DSC IIITDM Kurnool",
-					company_url:
-						"https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-					logo_path: "dsc_logo.png",
-					duration: "Jan 2018 - May 2020",
-					location: "Kurnool, Andhra Pradesh",
-					description:
-						"We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-					color: "#0C9D58",
-				},
-				{
-					title: "Developer Program Member",
-					company: "Github",
-					company_url: "https://github.com/",
-					logo_path: "github_logo.png",
-					duration: "July 2019 - PRESENT",
-					location: "Work From Home",
-					description:
-						"I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating peoper documentation for project.",
-					color: "#181717",
+						"Provided a solution that can be used to solve the current issue faced by the Indian government in keeping watch on people breaking lockdown in certain areas thus putting everyone in danger by voilating social distance norms. Video Link: https://youtu.be/fp114imobG0",
+					color: "#e50606",
 				},
 			],
 		},
@@ -585,7 +563,7 @@ const experience = {
 const projectsHeader = {
 	title: "Projects",
 	description:
-		"My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+		"Most of my projects are centered around machine learning and deep learning. Currently I am working on website development using html, css & reactjs.",
 	avatar_image_path: "projects_image.svg",
 };
 
@@ -594,27 +572,27 @@ const projectsHeader = {
 const contactPageData = {
 	contactSection: {
 		title: "Contact Me",
-		profile_image_path: "animated_ashutosh.png",
+		profile_image_path: "sj1.jpg",
 		description:
-			"I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+			"Want to tell me a secret?  Don't hesitate to message me.",
 	},
-	blogSection: {
-		title: "Blogs",
-		subtitle:
-			"For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-		link: "https://ashutoshhathidara.wordpress.com",
-		avatar_image_path: "blogs_image.svg",
-	},
+//	blogSection: {
+//		title: "Blogs",
+//		subtitle:
+//			"For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+//		link: "https://ashutoshhathidara.wordpress.com",
+//		avatar_image_path: "blogs_image.svg",
+//	},
 	addressSection: {
 		title: "Address",
 		subtitle:
-			"Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+			"Vill- Chandrapur, P.O.- Bagnan, Dist - Howrah, 711303, West Bengal",
 		avatar_image_path: "address_image.svg",
-		location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+		location_map_link: "https://goo.gl/maps/8Jk2YE2PodxzwirD9",
 	},
 	phoneSection: {
 		title: "Phone Number",
-		subtitle: "+91 8320758513",
+		subtitle: "+91 7003182440",
 	},
 };
 

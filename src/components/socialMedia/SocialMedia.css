@@ -52,11 +52,15 @@
 }
 
 .instagram {
-  background-color: #E4405F;
+  background-color: #E4405F;    
+}
+.whatsapp i {
+    background-color: darkgreen; 
+    color: white;
 }
 
 /*Hover Transition*/
-.twitter i:hover, .google i:hover, .gitlab i:hover,
+.twitter i:hover, .google i:hover, .gitlab i:hover, .instagram i:hover, .whatsapp i:hover
 .github i:hover ,.linkedin i:hover ,.facebook i:hover, .instagram i:hover{
   background-color: black;
   transition: 0.3s ease-in;

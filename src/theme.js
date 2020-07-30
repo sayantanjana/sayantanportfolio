@@ -118,5 +118,18 @@ export const orangeTheme = {
 					jacketColor: "#d7263d",
 					headerColor: "#FF6B3577",
 				};
+export const darkTheme = {
+					body: "#000000",
+					text: "#cce3e3",
+					highlight: "#000000",
+					dark: "#282928",
+					secondaryText: "#079471", //#293194 , #3c7022 , #0c9494 , #079471
+                    yolo1: "#c2064b",
+                    yolo2: "#540a12",
+					imageHighlight: "#2f332f",
+					compImgHighlight: "#242929",
+					jacketColor: "#131f1f",
+					headerColor: "#FF6B3577",
+				};
 
-export const chosenTheme = blueTheme;
+export const chosenTheme = yelGreenTheme;

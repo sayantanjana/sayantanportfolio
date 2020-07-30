@@ -49,35 +49,11 @@ class Contact extends Component {
 								</div>
 							</Fade>
 							<Fade bottom duration={1000} distance="40px">
-								<div className="blog-heading-div">
-									<div className="blog-heading-text-div">
-										<h1 className="blog-heading-text" style={{ color: theme.text }}>
-											{blogSection["title"]}
-										</h1>
-										<p className="blog-header-detail-text subTitle" style={{ color: theme.secondaryText }}>
-											{blogSection["subtitle"]}
-										</p>
-										<div className="blogsite-btn-div">
-											<Button
-												text="Visit My Blogsite"
-												newTab={true}
-												href={blogSection.link}
-												theme={theme}
-											/>
-										</div>
-									</div>
-									<div className="blog-heading-img-div">
-										{/* <img
-											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-										<BlogsImg theme={theme} />
-									</div>
-								</div>
-							</Fade>
-							<Fade bottom duration={1000} distance="40px">
+								
+
+
 								<div className="address-heading-div">
-									<div className="contact-heading-img-div">
+									<div className="contact-heading-img-div1">
 										{/* <img
 											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
 											alt=""
@@ -116,3 +92,35 @@ class Contact extends Component {
 }
 
 export default Contact;
+
+
+
+{
+// <div className="blog-heading-div">
+//									<div className="blog-heading-text-div">
+//										<h1 className="blog-heading-text" style={{ color: theme.text }}>
+//											{blogSection["title"]}
+//										</h1>
+//										<p className="blog-header-detail-text subTitle" style={{ color: theme.secondaryText }}>
+//											{blogSection["subtitle"]}
+//										</p>
+//										<div className="blogsite-btn-div">
+//											<Button
+//												text="Visit My Blogsite"
+//												newTab={true}
+//												href={blogSection.link}
+//												theme={theme}
+//											/>
+//										</div>
+//									</div>
+//									<div className="blog-heading-img-div">
+//										{/* <img
+//											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
+//											alt=""
+//										/> */}
+//										<BlogsImg theme={theme} />
+//									</div>
+//								</div>
+//							</Fade>
+//							<Fade bottom duration={1000} distance="40px"> 
+}

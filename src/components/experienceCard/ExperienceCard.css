@@ -1,9 +1,10 @@
 .experience-card {
     width: 100%;
     margin-bottom: 20px;
-    border-radius:10px;
+    border-radius:30px 15px;
     display: flex;
     flex-direction:row;
+    color: orangered;
 }
 
 .experience-card-logo-div {
@@ -12,6 +13,7 @@
 
 .experience-card-body-div {
     width: 100%;
+    color: black;
 }
 
 .experience-card-header-div {
@@ -103,8 +105,8 @@
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 1s;
+  transition: all 0.3s ease-in-out 1s;
 } 
 
 

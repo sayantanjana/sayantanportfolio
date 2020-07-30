@@ -24,7 +24,7 @@ class DegreeCard extends Component {
 						</Flip>
 						<Fade right duration={2000} distance="40px">
 							<div className="card-body">
-								<div className="body-header" style={{ backgroundColor: theme.headerColor }}>
+								<div className="body-header" style={{ backgroundColor: theme.yolo2 }}>
 									<div className="body-header-title">
 										<h2 className="card-title" style={{ color: theme.text }}>
 											{degree.title}
@@ -42,13 +42,13 @@ class DegreeCard extends Component {
 								<div classname="body-content">
 									{degree.descriptions.map((sentence) => {
 										return (
-											<p className="content-list" style={{ color: theme.text }}>
+											<p className="content-list" style={{ color: theme.secondaryText }}>
 												{sentence}
 											</p>
 										);
 									})}
 									<a href={degree.website_link} target="_blank" rel="noopener noreferrer">
-										<div className="visit-btn" style={{ backgroundColor: theme.headerColor }}>
+										<div className="visit-btn" style={{ backgroundColor: theme.yolo2 }}>
 											<p className="btn" style={{ color: theme.text }}>
 												Visit Website
 											</p>
